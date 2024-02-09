@@ -6,7 +6,7 @@ email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
 baseurl: "" # Update this if your site is hosted under a subpath, e.g., "/bulma-clean-theme"
-url: "https://www.imooger.github.io"
+url: https://www.imooger.github.io
 permalink: pretty
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes

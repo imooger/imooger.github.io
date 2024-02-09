@@ -9,7 +9,9 @@ toc: true
 
 ## General Configuration
 
-Much of a Jekyll's configuration is held in the `_config.yml` file in the project root. 
+THIS IS NEW MARKDOWNghjghj
+
+Much of a Jekyll's configuration is held in the `_config.yml` file in the project root.
 
 For information on general Jekyll configuration, please check out the [Jekyll docs](https://jekyllrb.com/docs/configuration/).
 
@@ -20,9 +22,9 @@ Below are some specific options that you might want to set in your `_config.yml`
 The html lang attribute is set to `en` by default but you can override this in the _config.yml file `lang: en`
 
 ## Direction
-The html _dir_ attribute is set to `ltr` by default. It can be overridden in the _config.yml file like `direction: rtl`. 
+The html _dir_ attribute is set to `ltr` by default. It can be overridden in the _config.yml file like `direction: rtl`.
 
-## Google Analytics 
+## Google Analytics
 
 To enable Google Analytics add `google_analytics: UA-xxxxxxxx` to your `_config.yml` replacing the UA-xxxxxxxx with your Google Analytics property.
 
@@ -42,18 +44,18 @@ Further information on Sponsors feature available in the [Sponsors docs page](/b
 
 ## Disqus
 
-Disqus comments are available for posts. To be able to use them, you need to set your disqus shortname in `_config.yml`. 
+Disqus comments are available for posts. To be able to use them, you need to set your disqus shortname in `_config.yml`.
 ```
 disqus.shortname=<example-com.disqus.com>  
 ```
 
 Need help finding your Disqus Shortname?  [See this helpful post by Disqus on the matter.](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)  
 
-Then you need to set your Jekyll environment to production: 
+Then you need to set your Jekyll environment to production:
 
-```JEKYLL_ENV=production bundle exec jekyll build```. 
+```JEKYLL_ENV=production bundle exec jekyll build```.
 
-Post comments are enabled by default if disqus is enabled. If you want to disable comments on a specific post, set the following in the post's front matter: 
+Post comments are enabled by default if disqus is enabled. If you want to disable comments on a specific post, set the following in the post's front matter:
 
 ```markdown
 comments: false
