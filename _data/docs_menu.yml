@@ -40,7 +40,7 @@
       link: /docs/posts/post-series/
 
 - label: Page Components
-  items: 
+  items:
     - name: Callouts
       link: /docs/page-components/callouts/
     - name: Image Gallery
@@ -74,4 +74,5 @@
   items:
     - name: Recipes
       link: /docs/recipes/recipes/
-
+    - name: 10_minutes
+      link: /docs/recipes/10_minutes/

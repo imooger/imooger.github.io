@@ -1,7 +1,7 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
+title: adix
+tagline: adix documentaion
 email: your-email@domain.com
 description: >
   The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
@@ -9,7 +9,7 @@ baseurl: "" # Update this if your site is hosted under a subpath, e.g., "/bulma-
 url: https://www.imooger.github.io
 permalink: pretty
 #favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
+gh_sponsor: imooger
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
 #fixed_navbar: top
