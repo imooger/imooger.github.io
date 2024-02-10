@@ -6,7 +6,7 @@ items:
     icon: fa-space-shuttle
     description: ""
     call_to_action_name: launch
-    call_to_action_link: /2017/10/30/10_minutes_to_ADIX/
+    call_to_action_link: /2024/02/09/10_minutes_to_ADIX/
   - title: API docs
     subtitle: Documentation
     icon: fa-wrench

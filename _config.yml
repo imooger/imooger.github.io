@@ -4,7 +4,7 @@ title: adix
 tagline: adix documentaion
 email: your-email@domain.com
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+  ADIX documentaion
 baseurl: "" # Update this if your site is hosted under a subpath, e.g., "/bulma-clean-theme"
 url: https://www.imooger.github.io
 permalink: pretty
@@ -23,7 +23,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: #imooger
 
 remote_theme: chrisrhymes/bulma-clean-theme
 
@@ -65,7 +65,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "imooger" #"C.S. Rhymes"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true

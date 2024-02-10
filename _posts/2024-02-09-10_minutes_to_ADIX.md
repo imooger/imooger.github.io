@@ -2,19 +2,19 @@
 layout: post
 title: 10 minutes to ADIX
 description: A brief introduction basic functionality
-date: 2017-10-30 09:00:07
+date: 2024-02-09 09:00:07
 author: imooger
 hero_image: img/blog-post-series.jpg
 image: '/img/new1.jpg'
 hero_height: is-medium
-hero_darken: true
+hero_darken: false
 tags: adix data eda
 <!-- series: example_blog_series -->
 ---
 
 # Introduction to Automatic Data Inspection and eXploration Tool (adix)
 
-Welcome to the world of automatic data analytics with **adix** a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets! In this tutorial, we'll explore how to quickly analyze and visualize your data using this powerful tool.  a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets.
+Welcome to the world of automatic data analytics with **adix** a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets! In this tutorial, we'll explore how to quickly analyze and visualize your data using this powerful tool, a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets.
 
 ## Quick Start
 
