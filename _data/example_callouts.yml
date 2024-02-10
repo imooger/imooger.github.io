@@ -13,10 +13,10 @@ items:
     description:
     call_to_action_name: search
     call_to_action_link: /page-2/
-  - title: Examples
+  - title: Explore
     subtitle: Guides & Notebooks
-    icon: fa-github
-    icon_brand: true
+    icon: fa-meteor
+    #icon_brand: true
     description:
     call_to_action_name: explore
     call_to_action_link: /blog/

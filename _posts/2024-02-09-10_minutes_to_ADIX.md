@@ -12,15 +12,17 @@ tags: adix data eda
 <!-- series: example_blog_series -->
 ---
 
-# Introduction to Automatic Data Inspection and eXploration Tool (adix)
+Welcome to the world of automatic data analytics with **adix** a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets!
 
-Welcome to the world of automatic data analytics with **adix** a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets! In this tutorial, we'll explore how to quickly analyze and visualize your data using this powerful tool, a cutting-edge data analytics library designed to streamline the process of exploring and understanding your datasets.
+
+
+In this tutorial, we'll explore how to quickly analyze and visualize your data using this powerful tool. With just one function `ix.eda.()`, your entire dataset becomes an open book. Hold on tight as we uncover hidden insights and embark on an adventure of discovery!
 
 ## Quick Start
 
 Let's dive right in and see how **adix** can simplify your data analysis workflow.
 
-## Installation
+### Installation
 
 To get started with **adix**, you can easily install it using pip:
 
@@ -43,7 +45,7 @@ from adix.datasets import load_dataset
 titanic = load_dataset('titanic')
 ```
 
-### 10 Minutes to **adix**
+## 10 Minutes to **adix**
 
 
 #### 1. Rendering the Entire DataFrame
@@ -84,7 +86,7 @@ ix.eda(titanic, 'Age')
 
 #### 4. Pandas .loc & .iloc & .query()
 
-Since **adix** accepts a pandas dataframe as the initial input, you can leverage familiar pandas functionalities like .loc and .iloc to analyze specific portions of the dataset, or you can utilize .query() for concise and efficient data filtering based on boolean expressions, enhancing the flexibility and ease of data analysis.
+Since **adix** accepts a pandas dataframe as the initial input, you can leverage familiar pandas functionalities like `.loc` and `.iloc` to analyze specific portions of the dataset, or you can utilize `.query()` for concise and efficient data filtering based on boolean expressions, enhancing the flexibility and ease of data analysis.
 
 ```python
 ix.eda(titanic.loc[:10:2,['Age','Pclass','Fare']])

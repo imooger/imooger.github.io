@@ -4,38 +4,50 @@ menubar: docs_menu
 title: Installation
 subtitle: Getting Started
 show_sidebar: false
-toc: true
+toc: false
 ---
 
-## Use the Gem with Jekyll
+# Installation
+The recommended method to install **adix** is via [pip](https://pypi.org/project/adix/), the Python package manager.
 
-**This theme requires Jekyll 3.9 to be compatible with GitHub Pages.**
 
-Add this line to your Jekyll site's `Gemfile`:
+{% include notification.html
+message="**adix is still under development** If you encounter any data, compatibility, or installation issues, please don't hesitate to reach out!"
+status="is-warning"
+icon="fas fa-rocket"
+%}
 
-```ruby
-gem "bulma-clean-theme"
-```
 
-And add this line to your Jekyll site's `_config.yml`:
+1. **Standard Install**:
+   ```bash
+   pip install adix
+   ```
 
-```yaml
-theme: bulma-clean-theme
-```
+2. **Specific Version**:
+   ```bash
+   pip install adix==0.2.0
+   ```
 
-And then execute:
+3. **Upgrade to Latest Version**:
+   ```bash
+   pip install adix --upgrade
+   ```
 
-    $ bundle
+4. **Install from requirements.txt**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **Install without Dependencies**:
+   ```bash
+      pip install --no-deps adix
+   ```
 
-Or install it yourself as:
+<!-- 5. **Install from Source**:
+   ```bash
+   pip install /path/to/adix
+   ```
 
-    $ gem install bulma-clean-theme
-
-## GitHub Pages
-
-If you are deploying to GitHub pages, then you can also install the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`.
-
-```yaml
-# With GitHub Pages Gem
-remote_theme: chrisrhymes/bulma-clean-theme
-```
+6. **Install in Editable Mode**:
+   ```bash
+   pip install -e /path/to/adix
+   ``` -->

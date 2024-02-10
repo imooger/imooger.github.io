@@ -9,54 +9,36 @@ toc: true
 
 ## General Configuration
 
-THIS IS NEW MARKDOWN AHA
+Recognizing that data preparation consumes significant time, the primary focus of ADIX is to streamline the analysis process for users. Consequently, extensive configuration options are intentionally kept to a minimum to avoid impeding the workflow.
 
-Much of a Jekyll's configuration is held in the `_config.yml` file in the project root.
+However, users still have the flexibility to customize certain aspects, such as the color theme palette. Furthermore, options to disable the cache or the dashboard panel are available for those seeking additional control over their experience.
 
-For information on general Jekyll configuration, please check out the [Jekyll docs](https://jekyllrb.com/docs/configuration/).
+## Themes
 
-Below are some specific options that you might want to set in your `_config.yml` when using Bulma Clean Theme.
+Easily adjust the visualization theme to match your preferences. You can either select from pre-prepared theme plates by calling two functions `.get_theme()` & `.set_theme()` or customize ADIX with your own color palettes. Check out the documentation/Themes section for detailed instructions:
 
-## Lang
-
-The html lang attribute is set to `en` by default but you can override this in the _config.yml file `lang: en`
-
-## Direction
-The html _dir_ attribute is set to `ltr` by default. It can be overridden in the _config.yml file like `direction: rtl`.
-
-## Google Analytics
-
-To enable Google Analytics add `google_analytics: UA-xxxxxxxx` to your `_config.yml` replacing the UA-xxxxxxxx with your Google Analytics property.
-
-```yaml
-google_analytics: UA-xxxxxxxx
+```python
+ix.Configs.get_theme()
+# Explore available themes and set your preferred one
+ix.Configs.set_theme('FOREST')
 ```
 
-## GitHub Sponsor
+![Theme Change](/img/change_c.png)
 
-If you have a GitHub sponsors account set up, you can add your username to `gh_sponsor` in the `_config.yml` file and it will display a link to your profile on the right of the navbar.
+## Cache
 
-```yaml
-gh_sponsor: chrisrhymes
+ADIX employs caching as its default mechanism for a simple reason: it significantly accelerates the reloading of dataframes and visualizations, up to `10x times` faster! The system is intelligent enough to detect changes in dataframes and adapt accordingly. It's highly recommended to keep caching active primarily for performance reasons. However, you can disable it easily by entering:
+
+```python
+# Disable cache
+ix.Configs.use_eda_cache = false
 ```
 
-Further information on Sponsors feature available in the [Sponsors docs page](/bulma-clean-theme/docs/sponsors/).
+## Dashboard
 
-## Disqus
+The Dashboard serves as a swift initial insight into the dataset. By default, it appears when loading the entire dataset and is disabled when accessing individual variables or employing bivariate relations. As previously mentioned, since the entire dataframe is cached, attempting to deactivate it for time-saving purposes is computationally inefficient. Nonetheless, you can still disable it by entering:
 
-Disqus comments are available for posts. To be able to use them, you need to set your disqus shortname in `_config.yml`.
-```
-disqus.shortname=<example-com.disqus.com>  
-```
-
-Need help finding your Disqus Shortname?  [See this helpful post by Disqus on the matter.](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)  
-
-Then you need to set your Jekyll environment to production:
-
-```JEKYLL_ENV=production bundle exec jekyll build```.
-
-Post comments are enabled by default if disqus is enabled. If you want to disable comments on a specific post, set the following in the post's front matter:
-
-```markdown
-comments: false
+```python
+# Disable dashboard
+ix.eda(df,wrap=False)
 ```
