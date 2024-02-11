@@ -33,13 +33,13 @@ icon="fas fa-rocket"
    pip install adix --upgrade
    ```
 
-4. **Install from requirements.txt**:
+4. **Install just requirements.txt**:
    ```bash
    pip install -r requirements.txt
    ```
 5. **Install without Dependencies**:
    ```bash
-      pip install --no-deps adix
+   pip install --no-deps adix
    ```
 
 <!-- 5. **Install from Source**:

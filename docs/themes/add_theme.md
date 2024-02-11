@@ -1,45 +1,110 @@
 ---
 layout: page
-title: Themes
-subtitle: Getting Started
+title: Add Themes
+subtitle: Themes
 menubar: docs_menu
 toc: true
 show_sidebar: false
 ---
 
+# Configs.add_theme
 
-## Getting themes
+---
 
-### get_theme()
+<!-- #### Configs`.get_theme`(current=False) -->
 
-To view all available themes, execute the following code:
+##### Configs<span style="color:purple">.add_theme</span>( _theme_name=<span style="color:grey"> str</span>_, _theme_values=<span style="color:grey"> dict</span>_ )
+
+<!-- To view all available themes, execute the following code:
+
+
+
+
+
+current : _bool, default False_ -->
+
+
+
+<div style="display: flex; justify-content: left; margin-left: 50px;">
+    <div>
+        <p>
+        This function adds a new custom theme for visualization.
+        </p>
+
+        <p><b>Parameters:</b></p>
+        <ul>
+            <li><b>
+            theme_name :
+            </b>
+            <b><i>
+            str
+            </i></b></li>
+            <p>
+            The name of the custom theme to be added.
+            </p>
+            <li><b>
+            theme_values :
+            </b>
+            <b><i>
+            dict
+            </i></b></li>
+            <p>
+            A dictionary containing the custom theme values.
+      The dictionary should include key-value pairs representing the customizable
+      elements and their corresponding color values.
+
+            </p>
+        </ul>
+        <p><b>Returns:</b></p>
+        <ul>
+            <li><b>
+            None
+            </b>
+            <b><i>
+
+            </i></b></li>
+            <p>
+
+            </p>
+            <p>
+
+            </p>
+        </ul>
+    </div>
+</div>
+
+
+##### Examples
+
 
 ```python
-# return a list of all avaliable Themes
-ix.Configs.get_theme()
+# add your custom theme
+>>> custom_theme = {
+    'dash_donuts_color': '#a3b18a',
+    'mini_hist_color': '#a3b18a',
+    'hist_color': '#a3b18a',
+
+    'label_color':'#bc6c25',
+    'dash_bars_color': '#bc6c25',
+    'hist_kde_color': '#bc6c25',
+    'bar_color': 'light:#bc6c25',
+    'hover_color': '#bc6c25',
+
+    'dash_bars_text_color': '#525252',
+    'bar_font_color': '#525252',
+}
+
+>>> ix.Configs.add_theme('CustomTheme', custom_theme)                 
+
 ```
 
-### get_theme(current=True)
 
-If `current` is set to `True`,  this function returns a dictionary detailing the customizable elements along with their corresponding color values within the current theme.
 
-```python
-# returns all customizable values
-ix.Configs.get_theme(current=True)
-```
 
-![Atributes avaliable](/img/get_current_theme.png)
 
-## Setting themes
 
-### set_theme('theme_name')
 
-To set a new theme, first call `.get_theme()` to see all available themes and use the name of the theme as an argument for the function.
 
-```python
-# set a new theme
-ix.Configs.set_theme('PEACH')
-```
 
 
 ## Adding themes

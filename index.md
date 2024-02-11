@@ -17,29 +17,6 @@ show_sidebar: true
 **adix** (Automatic Data Inspection and eXploration) simplifies Exploratory Data Analysis (EDA) with a single command `ix.eda()`. Experience a streamlined approach to uncovering insights, empowering you to focus on your data without distraction.
 **Color customization** is at your fingertips, allowing you to tailor your analysis to your exact needs. Explore your data with confidence and efficiency, knowing that **adix** has your back every step of the way.
 
-
-
-# Dynamic Dash
-
-The dashboard at the top serves as a dynamic hub, offering a snapshot of critical insights derived from the dataframe. With its intuitive layout, it provides at-a-glance access to key metrics, trends, and patterns, empowering users to make informed decisions swiftly.
-
-![Pairwise sample](/img/dash.gif)
-
-
-
-# Quick start
-
-The system is designed for rapid visualization of target values and dataset, facilitating quick analysis of target characteristics with just one function `ix.eda()`. Similar to pandas' df.describe() function, it provides extended analysis capabilities, accommodating time-series and text data for comprehensive insights.
-
-```python
-import adix as ix
-from adix.datasets import load_dataset
-
-titanic = load_dataset('titanic')
-```
-
-
-
 # Main Features
 
 - **Customizable Themes**
@@ -59,6 +36,15 @@ titanic = load_dataset('titanic')
 
 
 
+# Dynamic Dash
+
+The dashboard at the top serves as a dynamic hub, offering a snapshot of critical insights derived from the dataframe. With its intuitive layout, it provides at-a-glance access to key metrics, trends, and patterns, empowering users to make informed decisions swiftly.
+
+Moreover, the dashboard features four tabs, allowing users to access additional information with ease and delve deeper into the insights presented.
+
+
+![Pairwise sample](/img/dash.gif)
+
 # Installation
 The best way to install **adix** (other than from source) is to use pip:
 ```
@@ -66,4 +52,20 @@ pip install adix
 ```
 
 
-**adix is still under development** If you encounter any data, compatibility, or installation issues, please don't hesitate to reach out!
+# Quick start
+
+The system is designed for rapid visualization of target values and dataset, facilitating quick analysis of target characteristics with just one function `ix.eda()`. Similar to pandas' df.describe() function, it provides extended analysis capabilities, accommodating time-series and text data for comprehensive insights.
+
+```python
+import adix as ix
+from adix.datasets import load_dataset
+
+titanic = load_dataset('titanic')
+```
+
+{% include notification.html
+message="
+**ADIX is still under development** If you encounter any data, compatibility, or installation issues, please don't hesitate to reach out!"
+status="is-warning"
+icon="fas fa-rocket"
+%}
