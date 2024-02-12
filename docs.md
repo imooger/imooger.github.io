@@ -9,6 +9,10 @@ hero_image: true
 show_sidebar: false
 ---
 
-Bulma Clean Theme has many features available. The documentation has been spit into categories to make it easier to navigate through the various features.
+Adix documentation has been split into categories to make it easier to navigate through the various features.
 
-Find out how to install Bulma Clean Theme in your Jekyll project in the [Installation](/bulma-clean-theme/docs/getting-started/installation/) section.
+## GUIDES
+
+Find out how to install Adix  [Installation](/adix-clean-theme/docs/getting-started/installation/) section. Here is an example link with an explanation:
+
+- [Installation](/adix-clean-theme/docs/getting-started/installation/): This section provides step-by-step instructions on how to install Adix project.

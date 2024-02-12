@@ -15,11 +15,11 @@
 - label: Themes
   items:
     - name: Configs.get_theme
-      link: /docs/Themes/get_theme/
+      link: /docs/themes/get_theme/
     - name: Configs.set_theme
-      link: /docs/Themes/set_theme/
+      link: /docs/themes/set_theme/
     - name: Configs.add_theme
-      link: /docs/Themes/add_theme/
+      link: /docs/themes/add_theme/
 
 - label: Data Types
   items:
