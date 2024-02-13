@@ -13,6 +13,8 @@ Adix documentation has been split into categories to make it easier to navigate 
 
 ## GUIDES
 
-Find out how to install Adix  [Installation](/adix-clean-theme/docs/getting-started/installation/) section. Here is an example link with an explanation:
+Discover how to explore your datasets with ADIX through a selection of guides and notebooks.
 
-- [Installation](/adix-clean-theme/docs/getting-started/installation/): This section provides step-by-step instructions on how to install Adix project.
+- [Installation](/docs/getting-started/installation/) : This section provides step-by-step instructions on how to install Adix project.
+
+- [10 minutes to ADIX](/2024/02/09/10_minutes_to_ADIX/) : A brief introduction to basic ADIX functionalities.

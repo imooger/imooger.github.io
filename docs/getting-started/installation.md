@@ -32,6 +32,11 @@ icon="fas fa-rocket"
    ```bash
    pip install adix --upgrade
    ```
+   or
+
+   ```bash
+   pip install adix -U
+   ```
 
 4. **Install just requirements.txt**:
    ```bash

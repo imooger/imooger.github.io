@@ -12,7 +12,7 @@ items:
     icon: fa-wrench
     description:
     call_to_action_name: search
-    call_to_action_link: /page-2/
+    call_to_action_link: /docs/
   - title: Explore
     subtitle: Guides & Notebooks
     icon: fa-meteor
