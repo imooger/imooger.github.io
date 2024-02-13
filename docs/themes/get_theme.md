@@ -72,7 +72,7 @@ current : _bool, default False_ -->
 
 
 ```python
-#To get suggested data types for variables in the Titanic dataset:
+#To get a list of available themes:
 >>> ix.Configs.get_theme()
 ...
 ['Theme1', 'Theme2', 'Theme3']

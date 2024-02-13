@@ -45,10 +45,10 @@ from adix.datasets import load_dataset
 titanic = load_dataset('titanic')
 ```
 
-## 10 Minutes to **adix**
+<!-- ## 10 Minutes to **adix** -->
 
 
-#### 1. Rendering the Entire DataFrame
+### 1. Rendering the Entire DataFrame
 
 With **adix**, visualizing the entire dataset is as simple as calling a single function:
 
@@ -62,7 +62,7 @@ This will generate a comprehensive overview of the dataset, allowing you to quic
 
 ---
 
-#### 2. Accessing Variables of Specific Data Types
+### 2. Accessing Variables of Specific Data Types
 
 You can focus your analysis on variables of a specific data type. For instance, to visualize only categorical variables, **adix** automatically detects data types. Additionally, you can also explicitly set variable data types; refer to the documentation for more details:
 
@@ -72,7 +72,7 @@ ix.eda(titanic, val='categorical')
 
 ---
 
-#### 3. Accessing Individual Variables
+### 3. Accessing Individual Variables
 
 You can inspect a wide variety of different data types, each with its own set of statistics. To delve deeper into a specific variable, such as 'Age', you can use:
 
@@ -84,7 +84,7 @@ ix.eda(titanic, 'Age')
 
 ---
 
-#### 4. Pandas .loc & .iloc & .query()
+### 4. Pandas .loc & .iloc & .query()
 
 Since **adix** accepts a pandas dataframe as the initial input, you can leverage familiar pandas functionalities like `.loc` and `.iloc` to analyze specific portions of the dataset, or you can utilize `.query()` for concise and efficient data filtering based on boolean expressions, enhancing the flexibility and ease of data analysis.
 
@@ -94,7 +94,7 @@ ix.eda(titanic.loc[:10:2,['Age','Pclass','Fare']])
 
 ---
 
-#### 5. Changing Theme Colors
+### 5. Changing Theme Colors
 
 Customize the visualization theme to suit your preferences. For customizing **adix** with your own color palettes, refer to the documentation:
 
@@ -108,7 +108,7 @@ ix.Configs.set_theme('FOREST')
 
 ---
 
-#### 6. Exploring Bivariate Relationships: Numerical & Numerical
+### 6. Exploring Bivariate Relationships: Numerical & Numerical
 
 Visualize relationships between numerical variables like 'Age' and 'Fare':
 
@@ -120,7 +120,7 @@ ix.eda(titanic, 'Age', 'Fare')
 
 ---
 
-#### 7. Exploring Bivariate Relationships: Categorical & Numerical
+### 7. Exploring Bivariate Relationships: Categorical & Numerical
 
 Investigate the relationship between categorical and numerical variables, such as 'Sex' and 'Age':
 
@@ -132,7 +132,7 @@ ix.eda(titanic, 'Sex', 'Age')
 
 ---
 
-#### 8. Exploring Bivariate Relationships: Categorical & Categorical
+### 8. Exploring Bivariate Relationships: Categorical & Categorical
 
 Finally, analyze relationships between categorical variables, like 'Sex' and 'Survived':
 
