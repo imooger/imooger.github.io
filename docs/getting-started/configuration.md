@@ -44,8 +44,16 @@ As previously mentioned, since the entire dataframe is cached, attempting to dea
 
 ```python
 # Disable dashboard
-ix.eda(df,wrap=False)
+ix.eda(df,dash=False)
 ```
+
+If you'd like to render dashboard solely, use 'only'.
+
+```python
+# Disable dashboard
+ix.eda(df,dash='only')
+```
+
 
 ## Dtypes
 

@@ -148,13 +148,13 @@ ix.Configs.add_theme('Ocean',
 
 To add your custom color palette, follow these steps:
 
-- `**Disable Cache** - important!!!`
+
 - **Retrieve Current Theme Values:** Use the get_theme(current=True) function to obtain the current theme's values.
 - **Name Your Theme:** Choose a name for your custom theme.
 - **Copy and Paste Values:** Copy the values from the output of the get_theme(current=True) function into a dictionary. Replace the color values with your preferred colors.
 - **Check Theme Availability:** Verify if your custom theme appears in the list of available themes.
 - **Set Your New Theme:** Use the set_theme('your_theme_name') function to apply your custom theme.
-- `**Enable Cache** - important!!!`
+
 
 By following these steps, you can seamlessly integrate your custom color palette into your application or environment.
 
@@ -164,8 +164,7 @@ The simplest method is to invoke get_theme(current=True), which retrieves all th
 
 After completing customization, execute the function. Upon omitting the current=True parameter in get_themes, you'll observe that your theme has been successfully incorporated.
 
-Finally, execute set_theme, and presto! Your color theme is now established."
+Finally, execute set_theme, and voilà! Your color theme is now established."
 status="is-warning"
 icon="fas fa-rocket"
 %}
-![Atributes avaliable](/img/new_theme.png)

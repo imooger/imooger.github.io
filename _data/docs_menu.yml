@@ -61,7 +61,10 @@
     #   link: /docs/page-components/tags/
     # - name: Video
     #   link: /docs/page-components/video/
-
+- label: Correlation
+  items:
+    - name: Heatmap Correlation
+      link: /docs/correlations/heatmap_corr/
 
 - label: Bivariate
   items:
