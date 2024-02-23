@@ -12,7 +12,7 @@ tags: adix data eda
 <!-- series: example_blog_series -->
 ---
 
-Welcome to the world of automatic data analytics with **adix** a Jupyter notebook package for data analytics library designed to streamline the process of exploring and understanding your datasets!
+Welcome to the world of automatic data analytics with **adix** a Jupyter notebook package for data analytics, designed to streamline the process of exploring and understanding your datasets!
 
 
 
@@ -35,7 +35,7 @@ Please note that **adix** is still under active development. If you encounter an
 
 ### Loading Data
 
-First in Jupyter notebook, let's load a dataset to work with. **adix** provides convenient functions to load sample datasets for demonstration purposes. For example:
+First, in Jupyter notebook, let's load a dataset to work with. **adix** provides convenient functions to load sample datasets for demonstration purposes. For example:
 
 ```python
 import adix as ix
