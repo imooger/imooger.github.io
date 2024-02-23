@@ -14,7 +14,9 @@ show_sidebar: true
 ![Pairwise sample](/img/main_fade1.gif)
 # What is it?
 
-**adix** (Automatic Data Inspection and eXploration) simplifies Exploratory Data Analysis (EDA) with a single command `ix.eda()`. Experience a streamlined approach to uncovering insights, empowering you to focus on your data without distraction.
+**adix** (Automatic Data Inspection and eXploration) is a package for Jupyter notebook or Google's colab notebook. It simplifies Exploratory Data Analysis (EDA) with a single command `ix.eda()`. It is a visual wrapper for dataframes, and it currently works with Pandas dataframes.
+
+Experience a streamlined approach to uncovering insights, empowering you to focus on your data without distraction.
 **Color customization** is at your fingertips, allowing you to tailor your analysis to your exact needs. Explore your data with confidence and efficiency, knowing that **adix** has your back every step of the way.
 
 # Main Features

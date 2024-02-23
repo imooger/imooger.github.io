@@ -11,6 +11,14 @@ show_sidebar: false
 
 Adix documentation has been split into categories to make it easier to navigate through the various features.
 
+{% include notification.html
+message="
+Adix is a package for Jupyter notebook or Google's colab notebook. It is a visual wrapper for dataframes. It currently works with Pandas dataframes.
+"
+status="is-warning"
+icon="fas fa-rocket"
+%}
+
 ## Guides
 
 Discover how to explore your datasets with ADIX through a selection of guides and notebooks.
